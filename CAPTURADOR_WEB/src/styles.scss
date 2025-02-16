@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0px;
+}
+
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background: linear-gradient(rgba(44, 70, 110, 1), rgba(0, 28, 85, 1));
+}
