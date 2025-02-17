@@ -1,0 +1,28 @@
+.step {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.step-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.step-icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.step-text {
+  flex: 1;
+}
+
+.step-title {
+  font-weight: bold;
+}
