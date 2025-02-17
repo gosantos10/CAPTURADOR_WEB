@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BotaoContinuarComponent } from './botao-continuar.component';
+import { BotaoSecundarioComponent } from './botao-secundario.component';
 
-describe('BotaoContinuarComponent', () => {
-  let component: BotaoContinuarComponent;
-  let fixture: ComponentFixture<BotaoContinuarComponent>;
+describe('BotaoSecundarioComponent', () => {
+  let component: BotaoSecundarioComponent;
+  let fixture: ComponentFixture<BotaoSecundarioComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [BotaoContinuarComponent]
+      imports: [BotaoSecundarioComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(BotaoContinuarComponent);
+    fixture = TestBed.createComponent(BotaoSecundarioComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
