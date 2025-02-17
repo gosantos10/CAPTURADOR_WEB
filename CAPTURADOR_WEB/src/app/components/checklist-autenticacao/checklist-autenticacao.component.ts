@@ -1,12 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import {MatButtonModule} from '@angular/material/button';
-import { BotaoContinuarComponent } from "../shared/botao-continuar/botao-continuar.component";
+import { BotaoPrimarioComponent } from "../shared/botao-primario/botao-primario.component";
 
 @Component({
   selector: 'app-checklist-autenticacao',
   standalone: true,
-  imports: [CommonModule, MatButtonModule, BotaoContinuarComponent],
+  imports: [CommonModule, MatButtonModule, BotaoPrimarioComponent],
   templateUrl: './checklist-autenticacao.component.html',
   styleUrl: './checklist-autenticacao.component.scss'
 })
